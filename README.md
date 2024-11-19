@@ -41,7 +41,7 @@ A simple low pass filter plugin allowing you to control frequency, resonance, we
 ## Support
 
 - Having issues? Contact me at stvdwell@gmail.com
-- Want to support the development? [Buy me a coffee on Ko-fi](your-kofi-link)
+- Want to support the development? [Buy me a coffee on Ko-fi](https://ko-fi.com/stvdwell)
 
 ## License
 
