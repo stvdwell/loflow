@@ -5,20 +5,31 @@ LoFlow VST3 Plugin License Agreement
 This software is provided free of charge for both personal and commercial use, subject to the following conditions:
 
 1. OWNERSHIP AND GRANT OF LICENSE
-  - All intellectual property rights in the Software remain the property of Anton Savytski (stvdwell)
-  - Users are granted a non-exclusive, non-transferable license to use the Software in personal and commercial projects
+   - All intellectual property rights in the Software remain the property of Anton Savytski (stvdwell)
+   - Users are granted a non-exclusive, non-transferable license to use the Software in personal and commercial projects
 
 2. RESTRICTIONS
-  - You may not modify, decompile, reverse engineer, or disassemble the Software
-  - You may not redistribute, sell, rent, lease, sublicense, or otherwise transfer rights to the Software
-  - You may not copy, modify, create derivative works, or use the code in other projects
+   - You may not modify, decompile, reverse engineer, or disassemble the Software
+   - You may not redistribute, sell, rent, lease, sublicense, or otherwise transfer rights to the Software
+   - You may not copy, modify, create derivative works, or use the code in other projects
 
-3. TERMINATION
-  - This license is effective until terminated
-  - The license will terminate automatically if you fail to comply with any of these restrictions
+3. DATA COLLECTION AND PRIVACY
+   - The Software may collect and transmit:
+     * Installation statistics and usage data
+     * Email addresses provided during registration
+   - This data will be:
+     * Used for improving the Software and user experience
+     * Used for sending important updates and announcements
+     * Never sold or shared with third parties
+     * Stored securely in accordance with data protection laws
+   - Users may opt-out of non-essential data collection by contacting stvdwell@gmail.com
 
-4. NO WARRANTY
-  - The Software is provided "AS IS" without warranty of any kind
-  - The author is not liable for any damages arising from the use of the Software
+4. TERMINATION
+   - This license is effective until terminated
+   - The license will terminate automatically if you fail to comply with any of these restrictions
 
-For permissions beyond the scope of this license, please contact: stvdwell@gmail.com
+5. NO WARRANTY
+   - The Software is provided "AS IS" without warranty of any kind
+   - The author is not liable for any damages arising from the use of the Software
+
+For permissions beyond the scope of this license or privacy-related inquiries, please contact: stvdwell@gmail.com
