@@ -4,12 +4,12 @@ A simple low pass filter plugin allowing you to control frequency, resonance, we
 
 ## Installation
 
-1. Download the installer from the releases page
-2. Run the installer and follow the prompts
-3. Restart your DAW
-4. The plugin should appear in your VST3 folder at:
+1. Download the zip archive from the releases page
+2. Export the folder and go to either the Windows or macOS folder to locate the plugin
+3. Copy and paste the plugin into your VST3 folder at:
   - Windows: C:\Program Files\Common Files\VST3
   - Mac: /Library/Audio/Plug-Ins/VST3
+4. Restart your DAW
 
 ## System Requirements
 
