@@ -1,21 +1,24 @@
-MIT License
+Copyright (c) 2024 Anton Savytski (stvdwell). All rights reserved.
 
-Copyright (c) 2024 stvdwell
+LoFlow VST3 Plugin License Agreement
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This software is provided free of charge for both personal and commercial use, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. OWNERSHIP AND GRANT OF LICENSE
+  - All intellectual property rights in the Software remain the property of Anton Savytski (stvdwell)
+  - Users are granted a non-exclusive, non-transferable license to use the Software in personal and commercial projects
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. RESTRICTIONS
+  - You may not modify, decompile, reverse engineer, or disassemble the Software
+  - You may not redistribute, sell, rent, lease, sublicense, or otherwise transfer rights to the Software
+  - You may not copy, modify, create derivative works, or use the code in other projects
+
+3. TERMINATION
+  - This license is effective until terminated
+  - The license will terminate automatically if you fail to comply with any of these restrictions
+
+4. NO WARRANTY
+  - The Software is provided "AS IS" without warranty of any kind
+  - The author is not liable for any damages arising from the use of the Software
+
+For permissions beyond the scope of this license, please contact: stvdwell@gmail.com
