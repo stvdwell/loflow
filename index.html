@@ -7,8 +7,50 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <style>
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 1000;
+        }
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .modal-content {
+            position: relative;
+            width: 90%;
+            max-width: 800px;
+            margin: 20px;
+        }
+        .close-modal {
+            position: absolute;
+            top: -40px;
+            right: 0;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body class="bg-black text-white">
+    <!-- Video Modal -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeVideoModal()">&times;</span>
+            <video id="demoVideo" controls width="100%">
+                <source src="loflow-demo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
     <nav class="fixed w-full z-50 bg-black bg-opacity-90 backdrop-blur-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6">
             <div class="flex justify-between items-center h-16">
@@ -41,11 +83,15 @@
                     <p class="text-xl text-gray-300 mb-12">
                         Simple, efficient, and powerful. Create smooth transitions and creative filter effects with precision control.
                     </p>
-                    <div>
+                    <div class="flex gap-4">
                         <a href="https://github.com/stvdwell/loflow/releases/download/v1.0.0/LoFlow_v1.0.0.zip" 
                            class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
                             Download v1.0
                         </a>
+                        <button onclick="openVideoModal()" 
+                                class="inline-block bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
+                            Watch Demo
+                        </button>
                     </div>
                 </div>
                 <!-- Right Column: Plugin UI -->
@@ -114,11 +160,16 @@
                     Available for free download. Support development if you find it useful!
                 </p>
                 <div class="flex flex-col items-center space-y-8">
-                    <a href="https://github.com/stvdwell/loflow/releases/download/v1.0.0/LoFlow_v1.0.0.zip" 
-                       class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors" 
-                       data-aos="fade-up" data-aos-delay="200">
-                        Download v1.0
-                    </a>
+                    <div class="flex gap-4" data-aos="fade-up" data-aos-delay="200">
+                        <a href="https://github.com/stvdwell/loflow/releases/download/v1.0.0/LoFlow_v1.0.0.zip" 
+                           class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
+                            Download v1.0
+                        </a>
+                        <button onclick="openVideoModal()" 
+                                class="inline-block bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
+                            Watch Demo
+                        </button>
+                    </div>
                     <div class="w-full max-w-md" data-aos="fade-up" data-aos-delay="300">
                         <iframe id='kofiframe' src='https://ko-fi.com/stvdwell/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='stvdwell'></iframe>
                     </div>
@@ -158,6 +209,17 @@
             easing: 'ease-out-cubic',
             once: true
         });
+
+        function openVideoModal() {
+            document.getElementById('videoModal').classList.add('active');
+            document.getElementById('demoVideo').play();
+        }
+
+        function closeVideoModal() {
+            document.getElementById('videoModal').classList.remove('active');
+            document.getElementById('demoVideo').pause();
+            document.getElementById('demoVideo').currentTime = 0;
+        }
     </script>
 </body>
 </html>
